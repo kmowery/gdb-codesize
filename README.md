@@ -14,10 +14,10 @@ interesting functions and records their size.
 
 3. In the GDB console, do:
 
-     > python function_until("<fname>", "~/filename")
+     > python function_until("*fname*", "~/filename")
 
-   where <fname> is the function upon which to stop (I recommend using the
-   caller of the function with the breapoint). The second argument is the
+   where *fname* is the function upon which to stop (I recommend using the
+   caller of the function with the breakpoint). The second argument is the
    location where the results will be stored for later analysis.
 
 4. Run `count.py` on the file you created in the previous step.
